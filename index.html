@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <section class="gallery">
+        <p class="gallery__full-photo">
+            <img class="full-photo" src="img/carousel1.webp" width="950" height="600">
+        </p>
+        <p class="gallery__previews-photo">
+            <button class="gallery__preview-photo" type="button">
+                <img src="img/carousel1.webp" alt="Thumbnail 1">
+            </button>
+            <button class="gallery__preview-photo" type="button">
+                <img src="img/carousel2.webp" alt="Thumbnail 2">
+            </button>
+            <button class="gallery__preview-photo" type="button">
+                <img src="img/carousel3.webp" alt="Thumbnail 3">
+            </button>
+            <button class="gallery__preview-photo" type="button">
+                <img src="img/carousel4.webp" alt="Thumbnail 4">
+            </button>
+        </p>
+    </section>
+    <div class="gallery-carousel">
+        <div class="photos">
+            <img src="img/carousel1.webp" alt="Image 1">
+            <img src="img/carousel2.webp" alt="Image 2">
+            <img src="img/carousel3.webp" alt="Image 3">
+            <img src="img/carousel4.webp" alt="Image 4">
+        </div>
+        <div class="buttons">
+            <button class="prev">
+                Предыдущая
+            </button>
+            <button class="next">
+                Следующая
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
